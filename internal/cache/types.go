@@ -36,7 +36,6 @@ type Position struct {
 
 // TypeInfo - сериализуемая структура для хранения информации о типах
 type TypeInfo struct {
-	// Отображения для хранения информации о типах
 	TypesMap      map[string]TypeMetadata      `json:"typesMap"`
 	DefsMap       map[string]ObjectMetadata    `json:"defsMap"`
 	UsesMap       map[string]ObjectMetadata    `json:"usesMap"`
